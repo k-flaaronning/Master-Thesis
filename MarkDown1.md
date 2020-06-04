@@ -18,9 +18,7 @@ Condition monitoring has become a vital maintenance strategy across many industr
 
 Since the production started in 2007, the Piranema unit has experienced a problem with its gas compression system. The FPSO extracts and processes the crude oil, which is later stored onboard the vessel. The gas extracted from the wells is later reinjected, in order to extract the remaining crude oil from the wells. In order for the gas injection to be effective, the injected natural gas needs to maintain a certain level of pressure. Increasing the pressure of the gas is done by compressing the gas through a three-stage compression train. The figure shows the positioning of the exhaust outlets for the OPRA turbines and the air inlets for the Solar Turbines. The OPRA turbines function as the primary power source on the FPSO and the Solar turbines power the shafts running the compression trains. Given a certain wind degree and wind speed, the exhaust from the OPRA turbines enters the air inlets of the Solar turbines. Polluted air entering the Solar inlets decreases the turbine function, resulting in reduced compression performance. By collecting historical sensory data from the FPSO, the scope of this thesis is to create a machine learning model that can indicate the future health state of the compression trains. The health indicator aims to predict the future performance for the compression trains. Predicting future performance creates the opportunity to execute preventive actions to avoid critical events such as process shutdowns.
 
-
-
-![Problem_description](C:\Users\mtuhus\Downloads\Problem_description.png)
+![alt_text](Illustration/Problem_description.png)
 
  
 
@@ -74,7 +72,7 @@ All models are written using Google Colab notebooks, which is an online cloud-ba
 
 ### Hybrid Model 
 
-![hybrid_model (1)](C:\Users\mtuhus\Downloads\hybrid_model (1).png)
+![alt_text](Illustration/Hybrid_Model.png)
 
 
 
@@ -127,31 +125,31 @@ The performance of the hybrid model confirms our hypothesis of combining the str
 
 #### Predicted vs. correct target values of LSTM Network 
 
-![LSTM_sel_test](C:\Users\mtuhus\Downloads\LSTM_sel_test.PNG)
+![LSTM_sel_test](Illustration/LSTM_sel_test.PNG)
 
 
 
 #### Predicted vs. Correct target values Hybrid Model
 
-![LSTM_ARIMA_test](C:\Users\mtuhus\Downloads\LSTM_ARIMA_test.PNG)
+![LSTM_ARIMA_test](Illustration/LSTM_ARIMA_test.PNG)
 
 
 
 #### Performance LSTM on normal condition 
 
-![LSTM_sel_small_change_comparison](C:\Users\mtuhus\Downloads\LSTM_sel_small_change_comparison.PNG)
+![LSTM_sel_small_change_comparison](Illustration/LSTM_sel_small_change_comparison.PNG)
 
 
 
 #### Performance Hybrid Model on Normal Condition 
 
-![LSTM_arima_small_change_comparison](C:\Users\mtuhus\Downloads\LSTM_arima_small_change_comparison.PNG)
+![LSTM_arima_small_change_comparison](Illustration/LSTM_arima_small_change_comparison.PNG)
 
 
 
 ### Traning loss per epoch for each implemented model 
 
-![Validation_loss_all_models](C:\Users\mtuhus\Downloads\Validation_loss_all_models.PNG)
+![Validation_loss_all_models](Illustration/Validation_loss_all_models.PNG)
 
 # Conclusion
 
