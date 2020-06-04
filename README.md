@@ -62,14 +62,6 @@ All models are written using Google Colab notebooks, which is an online cloud-ba
 
 
 
-### Multilayer Perceptron
-
-
-
-### ARIMA 
-
-
-
 ### Hybrid Model 
 
 ![alt_text](Illustration/Hybrid_Model.png)
