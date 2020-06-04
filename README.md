@@ -34,7 +34,7 @@ The data used in this thesis orignates from the gas compression train, the SOLAR
 
 ### Libraries 
 
-All models are written using Google Colab notebooks, which is an online cloud-based environment designed to train machine learning and deep learning models. It leverages the computational power of Google hardware with high performing GPUs\footnote{Graphics Processing Units}. The programming language is Python which yields the Numpy library used for multidimensional matrix operations. Additional libraries like Pandas and Matplotlib are used for data visualization and inspection. Tensorflow is an open-source machine learning platform provided by Google. It contains all the necessary tools and function to build a state-of-the-art machine learning model. 
+All models are written using Google Colab notebooks, which is an online cloud-based environment designed to train machine learning and deep learning models. It leverages the computational power of Google hardware with high performing GPUs. The programming language is Python which yields the Numpy library used for multidimensional matrix operations. Additional libraries like Pandas and Matplotlib are used for data visualization and inspection. Tensorflow is an open-source machine learning platform provided by Google. It contains all the necessary tools and function to build a state-of-the-art machine learning model. 
 
 
 
